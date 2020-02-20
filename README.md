@@ -1,4 +1,8 @@
-<iframe width="560" height="315" src="http:https://josephtully-library.netlify.com/?path=/story/cards--slide-down-card" frameborder="0" allowfullscreen></iframe>
+
+<figure class="video_container">
+<iframe width="500px" height="300px" src="https://josephtully-library.netlify.com/?path=/story/cards--slide-down-card" frameborder="0" allowfullscreen="true"></iframe>
+</figure>
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
