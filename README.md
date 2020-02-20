@@ -1,6 +1,6 @@
 
 <figure class="video_container">
-<iframe width="500px" height="300px" src="https://josephtully-library.netlify.com/?path=/story/cards--slide-down-card" frameborder="0" allowfullscreen="true"></iframe>
+<iframe width="500" height="300" src="https://josephtully-library.netlify.com/?path=/story/cards--slide-down-card" frameborder="0" allowfullscreen="true"></iframe>
 </figure>
 
 
