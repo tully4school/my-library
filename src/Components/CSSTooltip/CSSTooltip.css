@@ -21,10 +21,10 @@ a[data-tool-tip]::after {
 	left: 0;
 	border-radius: 5px;
 	white-space: no-wrap;
-	transform: scale(0);
+	transform: scale(0, 1);
 	transition: ease-out 0.3s, bottom ease-out 2s;
 }
 a[data-tool-tip]:hover::after {
-	transform: scale(1);
+	transform: scale(1, 1);
 	bottom: 100%;
 }
