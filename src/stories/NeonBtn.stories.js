@@ -3,4 +3,4 @@ import NeonBtn from "../Components/NeonBtn/NeonBtn";
 
 export default { title: "Buttons" };
 
-export const Buttons = props => <NeonBtn name='Button' />;
+export const NeonButtons = props => <NeonBtn name='Button' />;

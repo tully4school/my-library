@@ -1,0 +1,30 @@
+.tool-tip {
+	display: flex;
+	width: 50vw;
+	height: 50vw;
+	margin: 0 auto;
+	text-align: center;
+	align-items: center;
+}
+a[data-tool-tip] {
+	position: relative;
+}
+a[data-tool-tip]::after {
+	content: attr(data-tool-tip);
+	display: block;
+	position: absolute;
+	background: #2f2f2f;
+	padding: 1em 3em;
+	color: #fff;
+	font-size: 0.8em;
+	bottom: 100%;
+	left: 0;
+	border-radius: 5px;
+	white-space: no-wrap;
+	transform: scale(0);
+	transition: ease-out 0.3s, bottom ease-out 2s;
+}
+a[data-tool-tip]:hover::after {
+	transform: scale(1);
+	bottom: 100%;
+}
