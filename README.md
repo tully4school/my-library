@@ -1,16 +1,7 @@
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-
-
-
-
-
-is project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-
-<div class="iframe_container">
-  <iframe src="https://josephtully-library.netlify.com" frameborder="0" allowfullscreen="allowfullscreen">  </iframe>
-</div>
-
+# Link to a live version
+[My Component Library](https://josephtully-library.netlify.com)
 
 ## Available Scripts
 
