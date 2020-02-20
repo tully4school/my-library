@@ -1,10 +1,16 @@
 
-<figure class="video_container">
-<iframe width="500" height="300" src="https://josephtully-library.netlify.com/?path=/story/cards--slide-down-card" frameborder="0" allowfullscreen="true"></iframe>
-</figure>
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+
+is project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+<div class="video_container">
+  &lt;iframe src="https://josephtully.netlify.com" frameborder="0" allowfullscreen="allowfullscreen">  &lt;/iframe>
+</div>
+
 
 ## Available Scripts
 
