@@ -8,7 +8,7 @@ is project was bootstrapped with [Create React App](https://github.com/facebook/
 
 
 <div class="video_container">
-  &lt;iframe src="https://josephtully.netlify.com" frameborder="0" allowfullscreen="allowfullscreen">  &lt;/iframe>
+  <iframe src="https://josephtully.netlify.com" frameborder="0" allowfullscreen="allowfullscreen">  </iframe>
 </div>
 
 
