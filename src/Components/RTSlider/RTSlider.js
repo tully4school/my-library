@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import "./RTSlider.css";
 import Swiper from "swiper";
 
-class RTSlider extends React.Component {
+class RTSlider extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {};
 	}
 	componentDidMount() {
-		var swiper = new Swiper(".swiper-container", {
+		let swiper = new Swiper(".swiper-container", {
 			effect: "cube",
 			grabCursor: true,
 			cubeEffect: {
@@ -26,7 +26,7 @@ class RTSlider extends React.Component {
 				<div className='swiper-wrapper'>
 					<div className='swiper-slide'>
 						<div className='imgBx'>
-							<img src='http://www.fillmurray.com/g/500/500' />
+							<img src={url} />
 						</div>
 						<div className='content'>
 							<h2>
@@ -37,7 +37,7 @@ class RTSlider extends React.Component {
 					</div>
 					<div className='swiper-slide'>
 						<div className='imgBx'>
-							<img src='http://www.fillmurray.com/g/500/500' />
+							<img src={url} />
 						</div>
 						<div className='content'>
 							<h2>
@@ -48,7 +48,7 @@ class RTSlider extends React.Component {
 					</div>
 					<div className='swiper-slide'>
 						<div className='imgBx'>
-							<img src='http://www.fillmurray.com/g/500/500' />
+							<img src={url} />
 						</div>
 						<div className='content'>
 							<h2>
@@ -59,7 +59,7 @@ class RTSlider extends React.Component {
 					</div>
 					<div className='swiper-slide'>
 						<div className='imgBx'>
-							<img src='http://www.fillmurray.com/g/500/500' />
+							<img src={url} />
 						</div>
 						<div className='content'>
 							<h2>
