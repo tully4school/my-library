@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./dist/css/main.css";
+import "./main.css";
 
 class XHamburgerMenu extends Component {
 	constructor(props) {
